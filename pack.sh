@@ -9,7 +9,7 @@ chmod +x $PWD/openssl-build/config
 echo -ne "install:\n\techo > /dev/null\nclean:\n\techo > /dev/null\n" > $PWD/openssl-build/Makefile
 
 fpm -t deb -s dir --name openssl-build \
-    -v 1.0.2a-1 \
+    -v 1.0.2g-1 \
     --vendor "Adallom" \
     --url "https://github.com/Adallom/openssl" \
     --prefix "/opt" \
